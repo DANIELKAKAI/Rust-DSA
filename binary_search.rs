@@ -15,7 +15,7 @@ fn binary_search(array: &[i32;5], target: i32) -> bool {
             temp_array = &temp_array[0..mid];
         }
         else{
-            temp_array = &temp_array[mid..];
+            temp_array = &temp_array[mid+1..];
         }
     }
     
