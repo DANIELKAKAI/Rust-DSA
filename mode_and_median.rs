@@ -45,7 +45,7 @@ fn mode_and_median(list: &mut Vec<i32>) -> Stats {
 fn main() {
     let mut v = vec![11, 2, 31, 2, 3, 3, 3, 4, 5, 3];
 
-    let x = sorter(&mut v);
+    let x = mode_and_median(&mut v);
 
     println!("{:?}", x);
 }
